@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: azure;
+}
+ul{
+    width: 800px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+    background-color: rgba(158, 34, 148, 0.5);
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+}
+li{
+    list-style: none;
+    flex: 1;
+    text-align: center;
+}
+li:hover{
+    border-bottom: 3px solid blue;
+
+}
+a{
+    font-size: 20PX;
+    line-height: 40px;
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+}
+.head {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 900px;
+    height: 600px;
+    background: url("./bj.jpg") no-repeat;
+    background-size: cover;
+    /* border: 2px solid green; */
+}
+.body{
+    width: 800px;
+    height: 460px;
+    background-color: rgba(158, 34, 148);
+    opacity: 0.5;
+    border-radius: 20px;
+    margin: 50PX auto;
+    border: 1px solid #6eecb4;
+}
+button{
+    width: 50px;
+    height: 30px;
+    color: blue;
+    margin: 10px;
+}
+
+hr{
+    height: 1px;
+    background-color: #6eecb4;
+    border: none;
+}
+textarea{
+    display: block;
+    width: 760px;
+    height: 370px;
+    margin: 10px auto;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    resize: none;
+}
